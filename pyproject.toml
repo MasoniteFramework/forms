@@ -10,7 +10,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.4"
-masonite = "2.0.*"
+masonite = "~2.0.8"
 
 [tool.poetry.dev-dependencies]
 pytest = "^3.0"
