@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "forms"
+version = "0.1.0"
+description = "A lightweight forms package for the Masonite framework."
+authors = ["Abram Isola <abram@isola.mn>"]
+readme = "README.md"
+packages = [
+  { include = "forms" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.4"
+masonite = "2.0.*"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
